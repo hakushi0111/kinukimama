@@ -263,14 +263,15 @@ footer{background:#141E17;padding:5vmin 5vw;display:grid;grid-template-columns:1
 .footer-btm span{font-family:'Cormorant Garamond',serif;font-size:0.65rem;color:rgba(253,250,245,0.18);letter-spacing:0.15em;}
 
 /* ── MOBILE ── */
-@media(max-width:900px){
+@media(max-width:800px){
   nav{padding:1.2rem 4vw;}nav.on{padding:0.9rem 4vw;}
   .nav-links{display:none;}
   .hero-body{grid-template-columns:1fr;padding:0 5vw 8vmin;}
   .hero-right{display:none;}
   .silk-intro,.about,.shop,.access{grid-template-columns:1fr;}
   .si-img-wrap{min-height:300px;}
-  .ab-visual{min-height:480px;}
+  .ab-visual{min-height:340px;}
+  .ab-slide.portrait{display:none;}
   .ab-card{position:relative;right:auto;bottom:auto;max-width:100%;margin:0;}
   .shop-visual{min-height:260px;border-right:none;border-bottom:1px solid rgba(201,170,124,0.18);}
   .philosophy{padding:8vmin 5vw;}
