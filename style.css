@@ -270,7 +270,7 @@ footer{background:#141E17;padding:5vmin 5vw;display:grid;grid-template-columns:1
   .hero-right{display:none;}
   .silk-intro,.about,.shop,.access{grid-template-columns:1fr;}
   .si-img-wrap{min-height:300px;}
-  .ab-visual{min-height:340px;}
+  .ab-visual{min-height:480px;}
   .ab-card{position:relative;right:auto;bottom:auto;max-width:100%;margin:0;}
   .shop-visual{min-height:260px;border-right:none;border-bottom:1px solid rgba(201,170,124,0.18);}
   .philosophy{padding:8vmin 5vw;}
