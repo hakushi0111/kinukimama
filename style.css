@@ -91,9 +91,6 @@ nav.on .nav-cta{color:var(--gold);border-color:var(--gold);}
 .si-big{font-family:'Cormorant Garamond',serif;font-size:clamp(4rem,7vw,7.5rem);font-weight:300;font-style:italic;line-height:1;color:var(--bg-deep);margin-bottom:0.3rem;letter-spacing:0.02em;pointer-events:none;user-select:none;}
 .si-img-wrap{position:relative;overflow:hidden;}
 .si-img-wrap img{height:100%;width:100%;object-fit:cover;}
-.si-badge{position:absolute;left:2.5rem;bottom:2.5rem;background:var(--gold);padding:1.8rem 2rem;text-align:center;}
-.si-badge-n{font-family:'Cormorant Garamond',serif;font-size:3rem;font-style:italic;font-weight:300;color:var(--sage);line-height:1;}
-.si-badge-l{font-size:0.58rem;letter-spacing:0.22em;color:rgba(46,61,52,0.55);display:block;margin-top:0.3rem;}
 
 /* ── PHILOSOPHY BLOCKS — longleage-style offset ── */
 .philosophy{padding:11vmin 5vw;background:var(--white);}
