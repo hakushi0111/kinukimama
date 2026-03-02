@@ -64,13 +64,17 @@ window.addEventListener('load',()=>{
   let abCurrent  = 0;
   let abTimer;
 
-  function abGoTo(idx) {
-    abSlides[abCurrent].classList.remove('active');
-    abDots[abCurrent].classList.remove('active');
-    abCurrent = (idx + abSlides.length) % abSlides.length;
-    abSlides[abCurrent].classList.add('active');
-    abDots[abCurrent].classList.add('active');
+function abGoTo(idx) {
+  abSlides[abCurrent].classList.remove('active');
+  abDots[abCurrent].classList.remove('active');
+  abCurrent = (idx + abSlides.length) % abSlides.length;
+  // モバイルでportraitスライドはスキップ
+  if (window.innerWidth <= 800 && abSlides[abCurrent].classList.contains('portrait')) {
+    abCurrent = (abCurrent + 1) % abSlides.length;
   }
+  abSlides[abCurrent].classList.add('active');
+  abDots[abCurrent].classList.add('active');
+}
 
   function abStartAuto() {
     clearInterval(abTimer);
