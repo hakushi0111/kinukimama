@@ -308,6 +308,7 @@ footer{background:#141E17;padding:5vmin 5vw;display:grid;grid-template-columns:1
   .si-img-wrap{min-height:300px;}
   .ab-visual{min-height:480px;}
   .ab-slide.portrait{display:none;}
+  .ab-dot:last-child{display:none;}
   .ab-card{position:relative;right:auto;bottom:auto;max-width:100%;margin:0;display:block;}
   .shop-visual{min-height:320px;border-right:none;border-bottom:1px solid rgba(201,170,124,0.18);}
   .philosophy{padding:8vmin 5vw;}
