@@ -329,6 +329,8 @@ footer{background:#141E17;padding:5vmin 5vw;display:grid;grid-template-columns:1
   .stat-sep{display:none;}
   .stat{padding:3rem 2rem;border-bottom:1px solid rgba(201,170,124,0.15);}
   .voice-grid{grid-template-columns:1fr;}
+  .access-tbl td:last-child{text-align:left;padding-right:0;}
+  .access-tbl td:first-child{width:80px;}
   .body-copy,.feat-body,.mc-desc,.fi-body,.vc-txt,.contact-p{font-size:0.95rem;}
   footer{grid-template-columns:1fr;padding:4vmin 5vw;}
   .footer-btm{flex-direction:column;gap:0.4rem;text-align:center;padding:1.2rem 5vw;}
