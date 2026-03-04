@@ -125,3 +125,65 @@ if (mapFacade) {
     document.getElementById('mapIframeWrap').style.display = 'block';
   });
 }
+
+// CONTACT FORM VALIDATION
+const cfForm = document.getElementById('cf-form');
+if (cfForm) {
+  const telInput = document.getElementById('cf-tel');
+  const mobileInput = document.getElementById('cf-mobile');
+  const telErr = document.getElementById('cf-tel-err');
+  const mobileErr = document.getElementById('cf-mobile-err');
+  const btn = document.getElementById('cf-submit-btn');
+
+  const telPattern = /^0\d{9,10}$/;
+
+  function validateTel(input, errEl) {
+    const val = input.value.trim();
+    if (val === '') return true;
+    if (!telPattern.test(val)) {
+      errEl.textContent = '0から始まる10桁または11桁の半角数字で入力してください';
+      return false;
+    }
+    errEl.textContent = '';
+    return true;
+  }
+
+  telInput.addEventListener('blur', () => validateTel(telInput, telErr));
+  mobileInput.addEventListener('blur', () => validateTel(mobileInput, mobileErr));
+
+const emailInput = document.getElementById('cf-email');
+  const emailErr = document.getElementById('cf-email-err');
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  function validateEmail() {
+    const val = emailInput.value.trim();
+    if (!emailPattern.test(val)) {
+      emailErr.textContent = '正しいメールアドレスを入力してください';
+      return false;
+    }
+    emailErr.textContent = '';
+    return true;
+  }
+
+  emailInput.addEventListener('blur', validateEmail);
+
+  btn.addEventListener('click', () => {
+    let valid = true;
+    if (!cfForm.reportValidity()) return;
+    if (!validateEmail()) valid = false;
+
+    const telOk = validateTel(telInput, telErr);
+    const mobileOk = validateTel(mobileInput, mobileErr);
+    if (!telOk || !mobileOk) valid = false;
+
+    const telVal = telInput.value.trim();
+    const mobileVal = mobileInput.value.trim();
+    if (telVal === '' && mobileVal === '') {
+      telErr.textContent = '電話番号または携帯番号のどちらかを入力してください';
+      mobileErr.textContent = '電話番号または携帯番号のどちらかを入力してください';
+      valid = false;
+    }
+
+    if (valid) cfForm.submit();
+  });
+}
