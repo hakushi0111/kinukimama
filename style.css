@@ -144,7 +144,7 @@ nav.on .nav-cta{color:var(--gold);border-color:var(--gold);}
 .menu{padding:11vmin 5vw;background:var(--bg);}
 .menu-top{text-align:center;margin-bottom:5vmin;}
 .menu-intro-txt{font-size:0.9rem;line-height:2.2;color:var(--ink-soft);margin-top:2.5rem;margin-bottom:5rem;text-align:center;}
-.ac-list{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:2px;}
+.ac-list{display:flex;flex-direction:column;gap:2px;}
 .ac-head{display:flex;align-items:center;justify-content:space-between;padding:1.6rem 2.2rem;background:var(--white);cursor:pointer;user-select:none;border-left:2px solid transparent;transition:border-color 0.3s,background 0.25s;}
 .ac-head:hover,.ac-item.open .ac-head{background:var(--bg-warm);border-left-color:var(--gold);}
 .ac-head-left{display:flex;align-items:baseline;gap:1.4rem;flex:1;min-width:0;}
