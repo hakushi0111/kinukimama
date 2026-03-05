@@ -193,7 +193,7 @@ const emailInput = document.getElementById('cf-email');
         headers: { 'Accept': 'application/json' }
       }).then(res => {
         if (res.ok) {
-          window.location.href = 'index.html?skip=1';
+          window.location.href = 'thanks.html';
         } else {
           btn.disabled = false;
           btn.textContent = '送信';
@@ -206,4 +206,17 @@ const emailInput = document.getElementById('cf-email');
       });
     }
   });
+}
+// THANKS PAGE COUNTDOWN
+const thanksSec = document.getElementById('thanks-sec');
+if (thanksSec) {
+  let sec = 5;
+  const t = setInterval(() => {
+    sec--;
+    thanksSec.textContent = sec;
+    if (sec <= 0) {
+      clearInterval(t);
+      window.location.href = 'index.html?skip=1';
+    }
+  }, 1000);
 }
