@@ -360,6 +360,7 @@ footer{background:#141E17;padding:5vmin 5vw;display:grid;grid-template-columns:1
   .menu-intro-txt{text-align:left;}
   .ac-head{padding:1.3rem 1.4rem;}
   .ac-head-left{gap:0.9rem;}
+  .ac-head-right{gap:0.6rem;}
   .ac-title-en{display:none;}
   .ac-price-range{font-size:0.85rem;}
   .ac-cards.col-2,.ac-cards.col-3,.ac-cards.col-4{grid-template-columns:1fr;}
