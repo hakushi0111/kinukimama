@@ -363,6 +363,7 @@ footer{background:#141E17;padding:5vmin 5vw;display:grid;grid-template-columns:1
   .ac-head-right{gap:0.6rem;}
   .ac-title-en{display:none;}
   .ac-price-range{font-size:0.85rem;}
+  .ac-title-ja{font-size:1rem;}
   .ac-cards.col-2,.ac-cards.col-3,.ac-cards.col-4{grid-template-columns:1fr;}
   .ac-card{padding:1.6rem 1.4rem;}
   .stats{grid-template-columns:1fr;}
