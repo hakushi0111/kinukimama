@@ -149,10 +149,10 @@ nav.on .nav-cta{color:var(--gold);border-color:var(--gold);}
 .ac-head:hover,.ac-item.open .ac-head{background:var(--bg-warm);border-left-color:var(--gold);}
 .ac-head-left{display:flex;align-items:baseline;gap:1.4rem;flex:1;min-width:0;}
 .ac-num{font-family:'Cormorant Garamond',serif;font-size:0.75rem;letter-spacing:0.2em;color:var(--gold-lt);flex-shrink:0;}
-.ac-title-ja{font-family:'Hina Mincho',serif;font-size:1.05rem;color:var(--sage);letter-spacing:0.05em;}
+.ac-title-ja{font-family:'Hina Mincho',serif;font-size:1.2rem;color:var(--sage);letter-spacing:0.05em;}
 .ac-title-en{font-family:'Cormorant Garamond',serif;font-size:0.6rem;letter-spacing:0.28em;text-transform:uppercase;color:var(--gold);opacity:0.7;}
 .ac-head-right{display:flex;align-items:center;gap:1.4rem;flex-shrink:0;}
-.ac-price-range{font-family:'Cormorant Garamond',serif;font-size:0.95rem;color:var(--ink-soft);white-space:nowrap;}
+.ac-price-range{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--ink-soft);white-space:nowrap;}
 .ac-arrow{width:20px;height:20px;position:relative;flex-shrink:0;}
 .ac-arrow::before,.ac-arrow::after{content:'';position:absolute;background:var(--gold-lt);border-radius:2px;transition:transform 0.35s ease;}
 .ac-arrow::before{width:10px;height:1px;top:50%;left:5px;transform:translateY(-50%);}
@@ -168,10 +168,10 @@ nav.on .nav-cta{color:var(--gold);border-color:var(--gold);}
 .ac-card{background:var(--white);padding:2rem 1.8rem;position:relative;}
 .ac-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(to right,var(--gold-lt),transparent);opacity:0;transition:opacity 0.3s;}
 .ac-card:hover::after{opacity:1;}
-.ac-card-name{font-size:0.88rem;color:var(--sage);margin-bottom:0.5rem;line-height:1.7;}
-.ac-card-price{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:300;color:var(--sage);margin-bottom:0.6rem;}
+.ac-card-name{font-size:1rem;color:var(--sage);margin-bottom:0.5rem;line-height:1.7;}
+.ac-card-price{font-family:'Cormorant Garamond',serif;font-size:1.44rem;font-weight:300;color:var(--sage);margin-bottom:0.6rem;}
 .ac-card-price small{font-size:0.64rem;font-family:'Hina Mincho',serif;color:var(--ink-soft);margin-left:0.25rem;}
-.ac-card-desc{font-size:0.78rem;line-height:1.9;color:var(--ink-soft);}
+.ac-card-desc{font-size:0.88rem;line-height:1.9;color:var(--ink-soft);}
 .ac-card-note{font-size:0.68rem;color:var(--gold);letter-spacing:0.06em;margin-top:0.5rem;display:block;}
 .menu-note{margin-top:2.5rem;padding:1.6rem 2.4rem;background:var(--bg-warm);border-left:2px solid var(--gold);font-size:0.9rem;color:var(--ink-soft);line-height:2;}
 
