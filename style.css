@@ -50,7 +50,7 @@ nav.on .logo-txt-green{opacity:1;}
 .nav-links{display:flex;gap:3.5rem;list-style:none;}
 .nav-links a{font-family:'Cormorant Garamond',serif;font-size:0.9rem;font-weight:400;letter-spacing:0.18em;text-transform:uppercase;color:rgba(253,250,245,0.85);transition:color 0.3s;}
 nav.on .nav-links a{color:var(--ink-mid);}
-.nav-links a:hover,.nav-links a:hover{color:var(--gold)!important;}
+.nav-links a:hover{color:var(--gold)!important;}
 .nav-cta{font-family:'Cormorant Garamond',serif;font-size:0.8rem;font-weight:400;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-lt);border:1px solid rgba(201,170,124,0.6);padding:0.55rem 1.6rem;transition:all 0.3s;}
 .nav-cta:hover{background:var(--gold-lt);color:var(--sage);}
 nav.on .nav-cta{color:var(--gold);border-color:var(--gold);}
