@@ -319,7 +319,7 @@ footer{background:#141E17;padding:5vmin 5vw;display:grid;grid-template-columns:1
   .nav-links a{letter-spacing:0.1em;}
   .nav-cta{padding:0.55rem 1.2rem;letter-spacing:0.15em;}
 }
-@media(max-width:960px){
+@media(max-width:1024px){
   .nav-links{display:none;}
   .nav-cta{display:none;}
   .burger{display:flex;flex-direction:column;justify-content:space-between;width:24px;height:16px;background:none;border:none;cursor:pointer;padding:0;z-index:300;}
