@@ -191,6 +191,9 @@ const emailInput = document.getElementById('cf-email');
       telErr.textContent = '電話番号または携帯番号のどちらかを入力してください';
       mobileErr.textContent = '電話番号または携帯番号のどちらかを入力してください';
       valid = false;
+    } else {
+      if (telVal !== '') telErr.textContent = '';
+      if (mobileVal !== '') mobileErr.textContent = '';
     }
 
     if (valid) {
@@ -262,7 +265,7 @@ if (newsList) {
           </div>
           <div class="news-title">${item.title}</div>
           <p class="news-body">${item.body}</p>
-          ${item.link ? `<a href="${item.link}" target="_blank" class="news-card-link">${item.linkText || 'こちら'} →</a>` : ''}
+          ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" class="news-card-link">${item.linkText || 'こちら'} →</a>` : ''}
         </div>
       `).join('');
     })
