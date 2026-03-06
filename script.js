@@ -85,7 +85,9 @@ const obs=new IntersectionObserver(entries=>{
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 
 document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{
-  const t=document.querySelector(a.getAttribute('href'));
+  const href=a.getAttribute('href');
+  if(!href||href==='#')return;
+  const t=document.querySelector(href);
   if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}
 }));
 
