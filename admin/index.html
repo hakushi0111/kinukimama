@@ -80,7 +80,9 @@
     .empty { text-align: center; padding: 40px; color: #aaa; font-size: 0.85rem; }
 
     .top-back {
-      display: inline-block;
+      display: block;
+      width: fit-content;
+      margin: 40px auto;
       padding: 0.75rem 2.2rem;
       border: 1px solid #7a9e7e;
       color: #7a9e7e;
@@ -90,7 +92,8 @@
       text-decoration: none;
       border-radius: 2px;
       transition: background 0.3s, color 0.3s;
-    }
+      text-align: center;
+    }      
     .top-back:hover {
       background: #7a9e7e;
       color: #fff;
@@ -112,6 +115,9 @@
     <div id="form-area"></div>
     <div id="list-area"></div>
   </div>
+  <a href="https://kinukimama.com/index.html?skip=1" class="top-back">
+← トップへ戻る
+</a>
 </div>
 <div id="toast"></div>
 
@@ -393,6 +399,5 @@ function escHtml(str) {
   return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 </script>
-<a href="https://kinukimama.com/index.html?skip=1" class="top-back">← トップへ戻る</a>
 </body>
 </html>
