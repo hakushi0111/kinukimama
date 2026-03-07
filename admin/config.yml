@@ -3,7 +3,7 @@ backend:
   repo: kinukimama/kinukimama
   branch: main
   app_id: Ov23litGoRlMfj0yVNx2
-  base_url: https://comforting-bonbon-07e4ad.netlify.app
+  base_url: base_url: https://api.netlify.com
 
 locale: ja
 media_folder: images
