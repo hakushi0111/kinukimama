@@ -517,4 +517,12 @@ footer{background:#141E17;padding:5vmin 5vw;display:grid;grid-template-columns:1
 .cf-tel-note{font-family:'Shippori Mincho B1',serif;font-size:0.65rem;color:var(--ink-soft);letter-spacing:0.05em;margin-left:0.8rem;text-transform:none;}
 @media(max-width:800px){
 .c-btns{width:100%;grid-template-columns:1fr;}
+.nb-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+}
+@media(max-width:800px){
+.c-btns{width:100%;grid-template-columns:1fr;}
+.nb-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+}
+@media(max-width:390px){
+  .ac-title-ja{font-size:0.88rem;}
 }
