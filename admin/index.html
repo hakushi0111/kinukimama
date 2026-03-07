@@ -78,6 +78,23 @@
 
     /* EMPTY */
     .empty { text-align: center; padding: 40px; color: #aaa; font-size: 0.85rem; }
+
+    .top-back {
+      display: inline-block;
+      padding: 0.75rem 2.2rem;
+      border: 1px solid #7a9e7e;
+      color: #7a9e7e;
+      font-size: 0.78rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 2px;
+      transition: background 0.3s, color 0.3s;
+    }
+    .top-back:hover {
+      background: #7a9e7e;
+      color: #fff;
+    }
   </style>
 </head>
 <body>
@@ -376,5 +393,6 @@ function escHtml(str) {
   return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 </script>
+<a href="https://kinukimama.com/index.html?skip=1" class="top-back">← トップへ戻る</a>
 </body>
 </html>
