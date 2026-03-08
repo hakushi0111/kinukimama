@@ -95,9 +95,9 @@ nav.on .nav-cta{color:var(--gold);border-color:var(--gold);}
 .ts-rule{flex:1;height:1px;background:rgba(201,170,124,0.2);margin:0 3rem;}
 
 /* ── SHARED ── */
-.sec-label{font-family:'Cormorant Garamond',serif;font-size:0.62rem;letter-spacing:0.52em;text-transform:uppercase;color:var(--gold);}
-.sec-h{font-family:'Hina Mincho',serif;font-size:clamp(1.65rem,2.8vw,2.4rem);line-height:1.75;letter-spacing:0.04em;}
-.sec-rule{width:30px;height:1px;background:var(--gold);margin:1.8rem 0;}
+.sec-label{font-family:'Cormorant Garamond',serif;font-size:0.62rem;letter-spacing:0.52em;text-transform:uppercase;color:var(--gold);display:block;text-align:center;}
+.sec-h{font-family:'Hina Mincho',serif;font-size:clamp(1.65rem,2.8vw,2.4rem);line-height:1.75;letter-spacing:0.04em;text-align:center;}
+.sec-rule{width:30px;height:1px;background:var(--gold);margin:1.8rem auto;}
 .body-copy{font-size:clamp(0.85rem,1vw,0.9rem);line-height:2.3;color:var(--ink-soft);}
 .reveal{opacity:0;transform:translateY(18px);transition:opacity 0.9s ease,transform 0.9s ease;}
 .reveal.vis{opacity:1;transform:none;}
