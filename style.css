@@ -112,7 +112,7 @@ nav.on .nav-cta{color:var(--gold);border-color:var(--gold);}
 
 /* ── PHILOSOPHY BLOCKS — longleage-style offset ── */
 .philosophy{padding:11vmin 5vw;background:var(--white);}
-.phil-header{max-width:540px;margin:0 auto 8vmin;text-align:center;}
+.phil-header{max-width:760px;margin:0 auto 8vmin;text-align:center;}
 .phil-header .sec-h{color:var(--sage);}
 .phil-header .sec-rule{margin:1.8rem auto;}
 .phil-blocks{display:flex;flex-direction:column;gap:0;}
