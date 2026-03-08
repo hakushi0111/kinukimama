@@ -388,9 +388,9 @@ footer{background:#141E17;padding:5vmin 5vw;display:grid;grid-template-columns:1
 .is-subpage .burger span{background:var(--ink-mid);}
 
 /* ── SCROLL MARGIN ── */
-section[id],div[id].img-break{scroll-margin-top:68px;}
+section[id],div[id].img-break{scroll-margin-top:75px;}
 @media(max-width:767px){
-  section[id],div[id].img-break{scroll-margin-top:76px;}
+  section[id],div[id].img-break{scroll-margin-top:82px;}
 }
 
 /* ── PAGE HERO ── */
