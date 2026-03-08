@@ -120,7 +120,7 @@ nav.on .nav-cta{color:var(--gold);border-color:var(--gold);}
 .phil-block:last-child{border-bottom:1px solid var(--bg-deep);}
 .pb-txt{padding:5.5rem 5vw;display:flex;flex-direction:column;justify-content:center;}
 .pb-num{font-family:'Cormorant Garamond',serif;font-size:0.62rem;letter-spacing:0.52em;text-transform:uppercase;color:var(--gold);margin-bottom:0.8rem;}
-.pb-title{font-size:0.95rem;color:var(--sage);letter-spacing:0.05em;margin-bottom:1.2rem;}
+.pb-title{font-size:1rem;color:var(--sage);letter-spacing:0.05em;margin-bottom:1.2rem;}
 .pb-img{overflow:hidden;min-height:300px;}
 .pb-img img{height:100%;object-fit:cover;transition:transform 0.8s ease;}
 .phil-block:hover .pb-img img{transform:scale(1.04);}
