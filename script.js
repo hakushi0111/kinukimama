@@ -52,7 +52,7 @@ if (abSlides.length > 0) {
     abSlides[abCurrent].classList.remove('active');
     abDots[abCurrent].classList.remove('active');
     abCurrent = (idx + abSlides.length) % abSlides.length;
-    if (window.innerWidth <= 800 && abSlides[abCurrent].classList.contains('portrait')) {
+    if (window.innerWidth <= 767 && abSlides[abCurrent].classList.contains('portrait')) {
       abCurrent = (abCurrent + 1) % abSlides.length;
     }
     abSlides[abCurrent].classList.add('active');
